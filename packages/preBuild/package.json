@@ -1,0 +1,12 @@
+{
+  "name": "preBuild",
+  "version": "0.0.1",
+  "description": "这是个插件",
+  "author": "wesley_woo@yeah.net",
+  "main": "main.js",
+  "main-menu": {
+    "项目/理论上不需要手动执行": {
+      "message": "preBuild:build"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "collision-matrix": [
+    [
+      true
+    ]
+  ],
+  "excluded-modules": [
+    "ScrollView",
+    "ScrollBar",
+    "TiledMap"
+  ],
+  "group-list": [
+    "default"
+  ],
+  "start-scene": "current"
+}
