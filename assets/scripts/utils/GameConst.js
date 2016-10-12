@@ -4,12 +4,14 @@
 
 let GameConst = {
     /*=========== public =================*/
-    CC_LOADER_RELEASE_STATE:{
-        WAITING:0,
-        IDLE:1,
+    CC_LOADER_RELEASE_STATE: {
+        WAITING: 0,
+        IDLE: 1,
     },
 
-    TOUCH_STATE:{
+    GAME_TIME: 3,//单位秒
+
+    TOUCH_STATE: {
         TOUCH_START: 'touchstart',
         TOUCH_MOVE: 'touchmove',
         TOUCH_END: 'touchend',
@@ -17,7 +19,7 @@ let GameConst = {
         TOUCH_DRAG: 'touchdrag',
     },
 
-    
+
 }
 
 module.exports = GameConst;
