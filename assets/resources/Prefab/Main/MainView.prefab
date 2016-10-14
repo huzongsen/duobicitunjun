@@ -327,7 +327,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 646,
+      "width": 0,
       "height": 47
     },
     "_children": [],
@@ -434,7 +434,7 @@
     },
     "_N$mode": 0,
     "_N$totalLength": 646,
-    "_N$progress": 1,
+    "_N$progress": 0,
     "_N$reverse": false
   },
   {
@@ -1988,7 +1988,10 @@
     "_MANUAL_RELEASE": 1,
     "_releaseMode": 0,
     "prefab": null,
-    "nodeInstanceId": ""
+    "nodeInstanceId": "",
+    "rabbit": {
+      "__uuid__": "2c3be1de-aea3-452e-86b7-5bfe20bd3a0f"
+    }
   },
   {
     "__type__": "cc.Animation",

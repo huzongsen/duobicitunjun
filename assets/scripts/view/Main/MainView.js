@@ -3,11 +3,22 @@ const ViewManager = require('ViewManager');
 let MainView = cc.Class({
     extends: BaseView,
 
-    properties: {},
+    properties: {
+        // expProgress: {
+        //     default: null,
+        //     type:cc.ProgressBar
+        // }
+        rabbit: {
+            default: null,
+            type:cc.Prefab
+        }
+    },
 
     onLoad() {
         this._super();
         this.addObs();
+        let tu = cc.instantiate(this.rabbit);
+        this.node.addChild(tu);
     },
 
     addObs() {
@@ -24,6 +35,6 @@ let MainView = cc.Class({
 
     gameOver() { 
         cc.director.loadScene('Over');
-    }
+    },
 
 })

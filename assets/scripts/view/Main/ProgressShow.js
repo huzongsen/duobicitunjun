@@ -14,7 +14,8 @@ cc.Class({
     // use this for initialization
     onLoad() {
         this._super();
-        this.initTime = GameConst.GAME_TIME;
+        // this.initTime = GameConst.GAME_TIME;
+        this.initTime = 100;
         this.time = this.initTime;
     },
 
