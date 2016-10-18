@@ -18,8 +18,6 @@ let GameConst = {
         TOUCH_CANCEL: 'touchcancel',
         TOUCH_DRAG: 'touchdrag',
     },
-
-
 }
 
 module.exports = GameConst;
