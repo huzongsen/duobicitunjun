@@ -1,4 +1,5 @@
 const ViewManager = require('ViewManager');
+const MessageManager = require('MessageManager');
 cc.Class({
     extends: cc.Component,
 
@@ -17,6 +18,9 @@ cc.Class({
 
     // use this for initialization
     onLoad: function () {
+        MessageManager.getConfigByName('message', function (data) { 
+            MessageManager._message = data;
+        })
         cc.loader.loadRes('/Prefab/LoadView', function (err, loadViewPrefab) {
             ViewManager._loadViewPrefab = loadViewPrefab;
             ViewManager.createPrefabNode('/Prefab/Start/StartView', 'StartView', function (node) {

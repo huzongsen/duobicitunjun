@@ -7,17 +7,6 @@ let StartView = cc.Class({
     properties: {},
 
     onLoad() {
-        // cc.loader.load('res/raw-assets/resources/Config/message.json', function (err, results) {
-        //     if (err) {
-        //         for (var i = 0; i < err.length; i++) {
-        //             cc.log('Error url [' + err[i] + ']: ' + results.getError(err[i]));
-        //         }
-        //     }
-        //     cc.log('results');
-        // })
-        // MessageManager.getMessageByName('message', function (data) { 
-        //     cc.log(data);
-        // });
         this._super();
         this.addObs();
         let userData = {

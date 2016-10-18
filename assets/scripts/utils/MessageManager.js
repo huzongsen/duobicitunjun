@@ -1,4 +1,5 @@
 let MessageManager = {
+    _message:null,
 
     saveMessage(name, data) {
         let dataJson = JSON.stringify(data);

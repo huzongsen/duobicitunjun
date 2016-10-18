@@ -1,0 +1,67 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "bearNormal",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 1.52,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 2,
+  "curveData": {
+    "paths": {
+      "normal": {
+        "comps": {
+          "cc.Sprite": {
+            "spriteFrame": [
+              {
+                "frame": 0,
+                "value": {
+                  "__uuid__": "962b22db-f5ec-4c80-957d-8c100c9c3e89"
+                }
+              },
+              {
+                "frame": 0.5333333333333333,
+                "value": {
+                  "__uuid__": "94e83586-af05-48b3-b823-d3366266cc03"
+                }
+              },
+              {
+                "frame": 0.9666666666666667,
+                "value": {
+                  "__uuid__": "f4b2d0c5-4a7f-4612-b8dc-b5784c9ab5f5"
+                }
+              },
+              {
+                "frame": 1.5,
+                "value": {
+                  "__uuid__": "962b22db-f5ec-4c80-957d-8c100c9c3e89"
+                }
+              }
+            ]
+          }
+        },
+        "props": {
+          "rotation": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0.5333333333333333,
+              "value": 120
+            },
+            {
+              "frame": 0.9666666666666667,
+              "value": 240
+            },
+            {
+              "frame": 1.5,
+              "value": 360
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

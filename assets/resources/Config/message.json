@@ -1,5 +1,12 @@
 {
     "body":{
         "name":"huzongsen"
+    },
+    "about":{
+        "name":"躲避刺豚君",
+        "weixin:":"微信号:JackieHZS",
+        "qq":"QQ:350556977",
+        "banquan":"版权所有:",
+        "gongzuo":"Onfire 工作室"
     }
 }
