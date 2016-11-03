@@ -34,6 +34,10 @@ let StartView = cc.Class({
         cc.director.loadScene('Main');
     },
 
+    musicToggleClick() { 
+        cc.log('click');
+    },
+
     onAboutBtnClick() {
         this.node.runAction(cc.sequence(cc.fadeTo(0.2, 150), cc.callFunc(function () {
             ViewManager.createPrefabNode('/Prefab/Start/AboutView', 'AboutView', function (node) {
